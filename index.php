@@ -8,7 +8,7 @@
         <div class="container" style="height: 700px;">
             <form class="calc-form" action="includes/calculate.php">
                 <p class="num-group">
-                    <input required class="input-el" type="number" name="num1" id="num1" placeholder="Перше число">
+                    <input required class="input-el" type="number" name="num1" id="num1" placeholder="Введіть Перше число">
                 </p>
                 <p class="operator-group">
                     <select required class="input-el" name="operator" id="operator">
@@ -19,7 +19,7 @@
                     </select>
                 </p>
                 <p class="num-group">
-                    <input required class="input-el" type="number" name="num2" id="num2" placeholder="Друге число">
+                    <input required class="input-el" type="number" name="num2" id="num2" placeholder="Введіть Друге число">
                 </p>
                 <div class="text-center">
                     <input type="submit" value="Submit" class="btn">
