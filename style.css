@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+ 
+.heading {
+    text-align: center;
+    background-color: rgb(76, 105, 201);
+    box-shadow: 0px 0px 5px grey;
+    font-weight: 100;
+    color: #ffffff;
+    padding: 10px 3px;
+}
+ 
+.container {
+    padding: 2rem;
+    text-align: center;
+    background-color: rgba(214, 195, 195, 0.4);
+}
+ 
+.calc-form {
+    width: 40%;
+    border: 1px solid antiquewhite;
+    padding: 2rem;
+    text-align: center;
+    display: inline-block;
+}
+ 
+.operator-group {
+    text-align: center;
+}
+ 
+.input-el {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+ 
+.input-el::placeholder {
+    text-align: center;
+}
+ 
+.text-center {
+    text-align: center;
+}
+ 
+.btn {
+    border-radius: 15px;
+    font-size: 0.8rem;
+    background-color: rgb(76, 105, 201);
+    color: #ffffff;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+}
